@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <!-- import the icon library-->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css" integrity="..." crossorigin="anonymous" />
+        <title>Little Joy</title>
+        <!--add Favicon of firecracker-->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <!--tell the browser do not shrink the content -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <img src="./assets/mixkit-woman.png">
+        <h1>Did something good happen today?</h1>
+        <p id="todaydate"></p>
+        <textarea id="input-field" type="text" placeholder="Share your joyful moment here" required></textarea>
+        <button id="publish-button">Publish</button>
+        <h2>- Little Joy - </h2>
+        <div id="joyContainer">
+        </div>
+        <script src="script.js" type="module"></script>
+    </body>
+    <footer>
+        <i class="fas fa-heart" id="heart-icon"></i>
+        <b class="heart-count" id="heart-count"></b>
+    </footer>
+</html>

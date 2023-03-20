@@ -1,0 +1,105 @@
+/* import the handwritten font Delius */
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+/* set the heading font size smaller for mobile */
+@media (max-width:480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size:1.3em;
+    }
+}
+
+
+html, body {
+    font-family: 'Delius',sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F1E2D2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+    align-items: center;
+    user-select: none;
+}
+
+h1, h2, button {
+    font-family: 'Josefin Sans';
+}
+
+img {
+    width:200px;
+    margin-top:20px;
+}
+
+#todaydate {
+    font-weight: bold;
+    background-color: #F1E2D2;
+    padding:0;
+    margin-bottom:2px;
+    font-size:large;
+}
+
+textarea {
+    width:300px;
+    height:120px;
+    border-radius: 5px;
+    border:none;
+}
+
+/* button effect */
+
+button {
+    margin-top:10px;
+    width:300px;
+    border-radius: 5px;
+    border:none;
+    padding:9px;
+    background-color:#FFA095;
+    font-weight:bolder;
+    font-size:large;
+    color:black; /*need to explicit set the text color, otherwise will turn blue on IOS */
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #FF7968;
+}
+
+/* little joy */
+h2 {
+    margin-bottom: 0;
+}
+
+/* date */
+p {
+    background-color: white;
+    padding:10px;
+    width:295px;
+    margin-top:2px;
+    border-radius: 5px;
+}
+
+/* heart footer */
+#heart-icon {
+    margin:0 2px;
+    padding:0;
+    color:black;
+}
+
+#heart-icon:hover {
+    cursor:pointer;
+}
+
+footer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart-count {
+    width:10px;
+    margin:0;
+}
