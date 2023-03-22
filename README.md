@@ -20,3 +20,5 @@ A native mobile app that lets users
 ### How to use:
 You can add this app to your phone home screen by opening the Netlify link in your default browser > tab the menu bar > click Add to home screen, and there you have it.
 If you want to modify this app's source code for your own use, please remember to replace the Firebase link in JavaScript with your own one after clone.
+
+![What the app looks like](https://user-images.githubusercontent.com/24996005/226962152-47a1c461-725a-4ff0-a005-067a07bbb139.png)
